@@ -11,6 +11,8 @@ import VideoPlayer from './VideoPlayer';
 import ProfileSection from './ProfileSection';
 import CommentsSection from './CommentsSection';
 import HistorySection from './HistorySection';
+import "mapbox-gl/dist/mapbox-gl.css?url";
+
 
 const Dashboard = ({ user, message, onLogout }) => {
   const [activeSection, setActiveSection] = useState('dashboard');
